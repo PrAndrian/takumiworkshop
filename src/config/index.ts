@@ -1,31 +1,31 @@
 export const PRODUCT_CATEGORIES = [
     {
-        label: "Digital Art Prints",
-        value: "digital_art" as const,
+        label: "UI kits",
+        value: "ui_kits" as const,
         featured : [
             {
-                name : "Wallpapers",
+                name : "Editor picks",
                 href : "#",
-                imageSrc : "/nav/ui_kit/mixed.jpg",
+                imageSrc : "/nav/ui-kits/mixed.jpg",
             },
             {
                 name : "New Arrivals",
                 href : "#",
-                imageSrc : "/nav/ui_kit/blue.jpg",
+                imageSrc : "/nav/ui-kits/blue.jpg",
             },
             {
-                name : "Bestsellers",
+                name : "Best sellers",
                 href : "#",
-                imageSrc : "/nav/ui_kit/purple.jpg",
+                imageSrc : "/nav/ui-kits/purple.jpg",
             },
         ]
     },
     {
-        label: "Anime Music and SFX",
-        value: "sfx_music" as const,
+        label: "Icons",
+        value: "icons" as const,
         featured : [
             {
-                name : "Favorite Music",
+                name : "Favorite Icons",
                 href : "#",
                 imageSrc : "/nav/icons/picks.jpg",
             },
@@ -35,7 +35,7 @@ export const PRODUCT_CATEGORIES = [
                 imageSrc : "/nav/icons/new.jpg",
             },
             {
-                name : "Bestselling SFX",
+                name : "Best selling Icons",
                 href : "#",
                 imageSrc : "/nav/icons/bestsellers.jpg",
             },
