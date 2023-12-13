@@ -35,7 +35,7 @@ const Cart = () => {
               aria-hidden='true'
               className='relative mb-4 h-60 w-60 text-muted-foreground'>
               <Image
-                src='/hippo-empty-cart.png'
+                src='/hippo-empty-cart.png' 
                 fill
                 alt='empty shopping cart hippo'
               />
