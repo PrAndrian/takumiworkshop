@@ -48,7 +48,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/*TO DO LIST PRODUCTS*/}
+        {/*TODO: LIST PRODUCTS*/}
       </MaxWidthWrapper>  
 
       <section className="border-t border-gay-200 bg-gray-50">
