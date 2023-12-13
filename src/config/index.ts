@@ -21,11 +21,11 @@ export const PRODUCT_CATEGORIES = [
         ]
     },
     {
-        label: "Digital arts",
+        label: "Forged items",
         value: "digital_arts" as const,
         featured : [
             {
-                name : "Favorite arts",
+                name : "Favorite items",
                 href : "#",
                 imageSrc : "/nav/icons/picks.jpg",
             },
@@ -35,7 +35,7 @@ export const PRODUCT_CATEGORIES = [
                 imageSrc : "/nav/icons/new.jpg",
             },
             {
-                name : "Best selling arts",
+                name : "Best selling items",
                 href : "#",
                 imageSrc : "/nav/icons/bestsellers.jpg",
             },
